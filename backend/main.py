@@ -8,7 +8,8 @@ app = FastAPI(title="Apple Device Price Prediction API")
 # Allow React frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173",
+                   "https://apple-price-prediction.onrender.com"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
