@@ -98,6 +98,9 @@ function PredictionForm({ onPredict }) {
       });
 
       const data = await response.json();
+      console.log("Status:",response.status);
+      console.log("Response:",data);
+
 
       if (data.success) {
         onPredict({
