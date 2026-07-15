@@ -9,7 +9,8 @@ app = FastAPI(title="Apple Device Price Prediction API")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173",
-                   "https://apple-price-prediction-1.onrender.com"],
+                   "https://apple-price-prediction-1.onrender.com" ,
+                   "https://apple-price-prediction.onrender.com"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
