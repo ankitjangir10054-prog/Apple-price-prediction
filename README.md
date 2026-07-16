@@ -1,4 +1,4 @@
-# 🍎 Apple Device Price Prediction
+# Apple Device Price Prediction
 
 ## 🚀 Live Demo
 https://apple-price-prediction-1.onrender.com
